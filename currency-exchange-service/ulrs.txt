@@ -33,3 +33,9 @@ Custom Routes
 - http://localhost:8765/currency-conversion-feign/from/USD/to/INR/quantity/10
 
 - http://localhost:8765/currency-conversion-new/from/USD/to/INR/quantity/10
+
+Maven command to create Docker images
+mvnw spring-boot:build-image -DskipTest
+
+Image for the Currency Exchange service
+Successfully built image 'docker.io/azzeddinemadi/microservices-currency-exchange-service:0.0.1-SNAPSHOT'
